@@ -18,6 +18,29 @@ mysql_query($query);
 // json encoder ...
 ```
 
+### Array format
+
+You must create an array in this format and encoding that to JSON :
+
+``` php
+$results = array(
+    array(
+        'title'=>'Your title here',
+        'link'=>'http://www.example.com'
+    ),
+    array(
+        'title'=>'Your title here',
+        'link'=>'http://www.example.com'
+    ),
+    .
+    .
+    .
+    .
+);
+```
+
+### Setup
+
 Add jAutoComplete css file between html head tag :
 
 ``` html
