@@ -1,0 +1,41 @@
+/*
+    Plugin : jAutoComplete
+    Copyright (C) 2018 - Mohammad Esmaeilzadeh
+    Author URL: http://www.bugless.ir/
+    Author Email: bugless.ir@yahoo.com
+    GitHub: https://github.com/buglessir
+    This is a jQuery plugin for AutoComplete form textboxes
+*/
+
+.jAutoCompleteHolder{
+    position: relative;
+    width: 100%;
+}
+
+.jAutoCompleteUl{
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 100%;
+    left: 0px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: none;
+}
+.jAutoCompleteUl li{
+    width: 100%
+}
+.jAutoCompleteUl li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    padding: 8px;
+}
+.jAutoCompleteUl li a:hover{
+    background: rgba(0,0,0,0.1);
+}
+
+/* Your custom CSS here ... */

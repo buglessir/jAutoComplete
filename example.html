@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/jAutoComplete.css">
+<link rel="stylesheet" href="assets/demo.css">
+<title>jAutoComplete Demo</title>
+</head>
+<body>
+
+<div class="main">
+    <h1>jAutoComplete Demo</h1>
+    <form name="test_form">
+        <input type="text" id="textbox" name="username" placeholder="Type here ...">
+    </form>
+</div>
+
+<script src="assets/jquery-3.2.1.min.js"></script>
+<script src="assets/jAutoComplete-1.0.0.js"></script>
+
+<script>
+
+    $(document).ready(function(){
+        $('#textbox').jAutoComplete({
+            url: 'assets/data.json',
+            method: 'POST'
+        });
+    });
+
+</script>
+
+</body>
+</html>
